@@ -21,12 +21,12 @@ body{
 }
 
 body > div{
-  width: 600px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   background: white;
   border: 2px solid yellow;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #page_content{
@@ -34,20 +34,46 @@ body > div{
 }
 
 #logo img{
-  width: 150px;
+  width: auto;
+  padding-bottom: 20px;
 }
 
 #site_header{
   background-color: #ff8523;
+  padding: 50px;
+}
+
+#submit_button{
+  background-color: #1fabe5;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.city_container{
   padding: 20px;
 }
 
+.name{
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 5px;
+}
+
 .main_navigation a{
+font-weight: bold;
+padding: 0.5em 2em;
 color: white;
 text-decoration: none;
 border: 1px solid white;
-border-radius: 3px;
+border-radius: 5px;
 
+}
+
+.name label{
+  color: white;
 }
 
 header{
@@ -55,28 +81,36 @@ header{
 }
 
 h2, h3{
-  color: #1fabe5
+  color: #1fabe5;
 }
 
 h3{
-  color: #1fabe5
+  color: #1fabe5;
 }
 
 section{
-  padding: 50px;
+  padding: 25px;
   border-bottom: 2px solid #dddddd;
 }
 
+section > ul > li{
+  font-weight: bold;
+}
+
 a{
-  color: #1fabe5
+  color: #1fabe5;
 }
 
 table{
+  width: 100%;
+  padding-bottom: 20px;
   border: 1px solid #1fabe5;
+  border-collapse: collapse;
 }
 
 thead{
   background-color: #1fabe5;
+  color: white;
 }
 
 td img{
@@ -85,4 +119,18 @@ td img{
 
 td{
   border: 1px solid #1fabe5;
+}
+
+form{
+  border-radius: 3px;
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+textarea{
+  width: 100%;
+  margin-top: 10px;
+}
+label{
+  font-weight: bold;
 }
