@@ -1,0 +1,88 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 90%;
+  line-height: 1.6;
+  background-image: url("img/bg.jpg");
+}
+
+body > div{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border: 2px solid yellow;
+  border-radius: 3px;
+}
+
+#page_content{
+  padding: 20px;
+}
+
+#logo img{
+  width: 150px;
+}
+
+#site_header{
+  background-color: #ff8523;
+  padding: 20px;
+}
+
+.main_navigation a{
+color: white;
+text-decoration: none;
+border: 1px solid white;
+border-radius: 3px;
+
+}
+
+header{
+  padding: 100px;
+}
+
+h2, h3{
+  color: #1fabe5
+}
+
+h3{
+  color: #1fabe5
+}
+
+section{
+  padding: 50px;
+  border-bottom: 2px solid #dddddd;
+}
+
+a{
+  color: #1fabe5
+}
+
+table{
+  border: 1px solid #1fabe5;
+}
+
+thead{
+  background-color: #1fabe5;
+}
+
+td img{
+  height: 50px;
+}
+
+td{
+  border: 1px solid #1fabe5;
+}
